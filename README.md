@@ -67,9 +67,11 @@ Monkey是Android中的一个自带的命令行工具，可以运行在模拟器�
 
 ## DDMS练习
 * 命令行中输入 ddmms，打开ddms
+![ddms截图](https://github.com/XYyanzi/HomeWork/blob/master/无线第一次作业/DDMS-screenshot.png?raw=true)
 * 左上角区域显示当前设备上的安装包信息，root之后可见，未root不可见
 * 右上角区域功能不常用，可不管
 * 左下角区域可显示创建好的Filter，点击+号可创建新的Filter，用来过滤制定的log信息
+![ddms添加filter](https://github.com/XYyanzi/HomeWork/blob/master/无线第一次作业/DDMS-创建Filter过滤日志.png?raw=true)
 * 右下角区域，实时显示设备或某个应用的日志信息
 
 ## Hierarchyviewer练习
@@ -77,5 +79,7 @@ Monkey是Android中的一个自带的命令行工具，可以运行在模拟器�
 	- 从可视化的角度直观地获得UI布局设计结构和各种属性的信息，帮助我们优化布局设计；  
 	- 结合debug帮助观察特定的UI对象进行invalidate和requestLayout操作的过程。
 * 命令行中输入 hierarchyviewer，打开hierarchyviewer
+![hierarchyviewer界面选择activity](https://github.com/XYyanzi/HomeWork/blob/master/无线第一次作业/hierarchyviewer-screenshot.png?raw=true)
 * 选中某个activity，点击 Load View Hierarchy按钮，进入层次结构图页面
 * 选中某个view，可以查看view的具体信息，id信息，渲染时长（便于优化UI性能）
+![查看某个view](https://github.com/XYyanzi/HomeWork/blob/master/无线第一次作业/hierarchyviewer-查看计算器的界面结构图.png?raw=true)
